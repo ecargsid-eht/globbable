@@ -1,0 +1,23 @@
+chat application (messenger)
+
+techologies used:-
+
+1. react js
+2. session (localstorage)
+3. websocket
+4. server(node js/express js/mongo db) / firebase
+
+server side:-
+
+step 1: npm init --y
+step 2: npm install --save express
+
+client side:-
+
+step1: 
+
+
+
+websocket:-
+
+websocket and HTTP are protocols.
