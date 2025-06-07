@@ -96,6 +96,7 @@ li{
 }
 
 .animationButton:hover{
+  color:white;
   background-color:#e76c81!important;
   transition: all 0.4s;
 }

@@ -1,6 +1,5 @@
 const PORT= 8000;
 const app = require("express")();
-
 const httpServer = require("http").createServer(app);
 const { disconnect } = require("process");
 const { Server } = require("socket.io");

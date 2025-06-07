@@ -6,7 +6,7 @@ import OnlineUsers from './comps/OnlineUsers';
 import ChatWithUser from './comps/ChatWithUser';
 import { useRef } from 'react';
 import Nav from './comps/Nav';
-const socket = io(`http://localhost:8000`)
+const socket = io(process.env.REACT_APP_SERVER_URL || "http://localhost:8000")
 
 
 // I have commented strict mode in react index js
