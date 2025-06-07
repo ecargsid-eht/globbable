@@ -8,7 +8,7 @@ const users = {};
 
 const io = new Server(httpServer, {
     cors: {
-      origin: "*",
+    origin: "https://globbable.vercel.app/",
       methods: ["GET", "POST"],
       credentials: true
     }
